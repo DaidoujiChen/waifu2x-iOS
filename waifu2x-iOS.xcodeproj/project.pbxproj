@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		1C6C0F631B4B82C6001921B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C0F621B4B82C6001921B4 /* main.m */; };
 		1C6C0F661B4B82C6001921B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C0F651B4B82C6001921B4 /* AppDelegate.m */; };
-		1C6C0F691B4B82C6001921B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C0F681B4B82C6001921B4 /* ViewController.m */; };
-		1C6C0F6C1B4B82C6001921B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C0F6A1B4B82C6001921B4 /* Main.storyboard */; };
 		1C6C0F6E1B4B82C6001921B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C0F6D1B4B82C6001921B4 /* Images.xcassets */; };
-		1C6C0F711B4B82C6001921B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C0F6F1B4B82C6001921B4 /* LaunchScreen.xib */; };
 		1C6C0F7D1B4B82C6001921B4 /* waifu2x_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C0F7C1B4B82C6001921B4 /* waifu2x_iOSTests.m */; };
+		1C6C0F881B4B8337001921B4 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6C0F871B4B8337001921B4 /* opencv2.framework */; };
+		1C6C0F901B4B83A1001921B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C0F8E1B4B83A1001921B4 /* MainViewController.m */; };
+		1C6C0F911B4B83A1001921B4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C0F8F1B4B83A1001921B4 /* MainViewController.xib */; };
+		1C6C0F931B4B844B001921B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C0F921B4B844B001921B4 /* Default-568h@2x.png */; };
+		1CC008091B4BC528008A2CCD /* 1920x1080_mc05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CC008081B4BC528008A2CCD /* 1920x1080_mc05.jpg */; };
+		1CCA7A3E1B4BAD9200BE86DD /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA7A3D1B4BAD9200BE86DD /* UIImage+OpenCV.mm */; };
+		1CCA7A401B4BADEC00BE86DD /* 200x200.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A3F1B4BADEC00BE86DD /* 200x200.jpeg */; };
+		1CCA7A681B4BAEDE00BE86DD /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A4F1B4BAEDE00BE86DD /* Makefile.am */; };
+		1CCA7A691B4BAEDE00BE86DD /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A501B4BAEDE00BE86DD /* Makefile.in */; };
+		1CCA7A6A1B4BAEDE00BE86DD /* noise1_model.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A601B4BAEDE00BE86DD /* noise1_model.json */; };
+		1CCA7A6B1B4BAEDE00BE86DD /* noise2_model.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A611B4BAEDE00BE86DD /* noise2_model.json */; };
+		1CCA7A6C1B4BAEDE00BE86DD /* scale2.0x_model.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7A621B4BAEDE00BE86DD /* scale2.0x_model.json */; };
+		1CCA7A6D1B4BAEDE00BE86DD /* convertRoutine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA7A641B4BAEDE00BE86DD /* convertRoutine.cpp */; };
+		1CCA7A6E1B4BAEDE00BE86DD /* modelHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA7A661B4BAEDE00BE86DD /* modelHandler.cpp */; };
+		1CCA7A711B4BAFE800BE86DD /* UIImage+waifu2x.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA7A701B4BAFE800BE86DD /* UIImage+waifu2x.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +44,55 @@
 		1C6C0F621B4B82C6001921B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C6C0F641B4B82C6001921B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C6C0F651B4B82C6001921B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C6C0F671B4B82C6001921B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C6C0F681B4B82C6001921B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C6C0F6B1B4B82C6001921B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C6C0F6D1B4B82C6001921B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1C6C0F701B4B82C6001921B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C6C0F761B4B82C6001921B4 /* waifu2x-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waifu2x-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6C0F7B1B4B82C6001921B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6C0F7C1B4B82C6001921B4 /* waifu2x_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waifu2x_iOSTests.m; sourceTree = "<group>"; };
+		1C6C0F871B4B8337001921B4 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		1C6C0F8D1B4B83A1001921B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1C6C0F8E1B4B83A1001921B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1C6C0F8F1B4B83A1001921B4 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1C6C0F921B4B844B001921B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CC008081B4BC528008A2CCD /* 1920x1080_mc05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1920x1080_mc05.jpg; sourceTree = "<group>"; };
+		1CCA7A3C1B4BAD9200BE86DD /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		1CCA7A3D1B4BAD9200BE86DD /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		1CCA7A3F1B4BADEC00BE86DD /* 200x200.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 200x200.jpeg; sourceTree = "<group>"; };
+		1CCA7A431B4BAEDE00BE86DD /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
+		1CCA7A451B4BAEDE00BE86DD /* Arg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arg.h; sourceTree = "<group>"; };
+		1CCA7A461B4BAEDE00BE86DD /* ArgException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgException.h; sourceTree = "<group>"; };
+		1CCA7A471B4BAEDE00BE86DD /* ArgTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgTraits.h; sourceTree = "<group>"; };
+		1CCA7A481B4BAEDE00BE86DD /* CmdLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLine.h; sourceTree = "<group>"; };
+		1CCA7A491B4BAEDE00BE86DD /* CmdLineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineInterface.h; sourceTree = "<group>"; };
+		1CCA7A4A1B4BAEDE00BE86DD /* CmdLineOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineOutput.h; sourceTree = "<group>"; };
+		1CCA7A4B1B4BAEDE00BE86DD /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		1CCA7A4C1B4BAEDE00BE86DD /* DocBookOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocBookOutput.h; sourceTree = "<group>"; };
+		1CCA7A4D1B4BAEDE00BE86DD /* HelpVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVisitor.h; sourceTree = "<group>"; };
+		1CCA7A4E1B4BAEDE00BE86DD /* IgnoreRestVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreRestVisitor.h; sourceTree = "<group>"; };
+		1CCA7A4F1B4BAEDE00BE86DD /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		1CCA7A501B4BAEDE00BE86DD /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		1CCA7A511B4BAEDE00BE86DD /* MultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiArg.h; sourceTree = "<group>"; };
+		1CCA7A521B4BAEDE00BE86DD /* MultiSwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSwitchArg.h; sourceTree = "<group>"; };
+		1CCA7A531B4BAEDE00BE86DD /* OptionalUnlabeledTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalUnlabeledTracker.h; sourceTree = "<group>"; };
+		1CCA7A541B4BAEDE00BE86DD /* StandardTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTraits.h; sourceTree = "<group>"; };
+		1CCA7A551B4BAEDE00BE86DD /* StdOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdOutput.h; sourceTree = "<group>"; };
+		1CCA7A561B4BAEDE00BE86DD /* SwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchArg.h; sourceTree = "<group>"; };
+		1CCA7A571B4BAEDE00BE86DD /* UnlabeledMultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledMultiArg.h; sourceTree = "<group>"; };
+		1CCA7A581B4BAEDE00BE86DD /* UnlabeledValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledValueArg.h; sourceTree = "<group>"; };
+		1CCA7A591B4BAEDE00BE86DD /* ValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueArg.h; sourceTree = "<group>"; };
+		1CCA7A5A1B4BAEDE00BE86DD /* ValuesConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuesConstraint.h; sourceTree = "<group>"; };
+		1CCA7A5B1B4BAEDE00BE86DD /* VersionVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionVisitor.h; sourceTree = "<group>"; };
+		1CCA7A5C1B4BAEDE00BE86DD /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		1CCA7A5D1B4BAEDE00BE86DD /* XorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XorHandler.h; sourceTree = "<group>"; };
+		1CCA7A5E1B4BAEDE00BE86DD /* ZshCompletionOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZshCompletionOutput.h; sourceTree = "<group>"; };
+		1CCA7A601B4BAEDE00BE86DD /* noise1_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noise1_model.json; sourceTree = "<group>"; };
+		1CCA7A611B4BAEDE00BE86DD /* noise2_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noise2_model.json; sourceTree = "<group>"; };
+		1CCA7A621B4BAEDE00BE86DD /* scale2.0x_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scale2.0x_model.json; sourceTree = "<group>"; };
+		1CCA7A641B4BAEDE00BE86DD /* convertRoutine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convertRoutine.cpp; sourceTree = "<group>"; };
+		1CCA7A651B4BAEDE00BE86DD /* convertRoutine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = convertRoutine.hpp; sourceTree = "<group>"; };
+		1CCA7A661B4BAEDE00BE86DD /* modelHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelHandler.cpp; sourceTree = "<group>"; };
+		1CCA7A671B4BAEDE00BE86DD /* modelHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = modelHandler.hpp; sourceTree = "<group>"; };
+		1CCA7A6F1B4BAFE800BE86DD /* UIImage+waifu2x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+waifu2x.h"; sourceTree = "<group>"; };
+		1CCA7A701B4BAFE800BE86DD /* UIImage+waifu2x.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+waifu2x.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6C0F881B4B8337001921B4 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +135,11 @@
 		1C6C0F5F1B4B82C6001921B4 /* waifu2x-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1C6C0F861B4B8337001921B4 /* waifu2x-iOS */,
 				1C6C0F641B4B82C6001921B4 /* AppDelegate.h */,
 				1C6C0F651B4B82C6001921B4 /* AppDelegate.m */,
-				1C6C0F671B4B82C6001921B4 /* ViewController.h */,
-				1C6C0F681B4B82C6001921B4 /* ViewController.m */,
-				1C6C0F6A1B4B82C6001921B4 /* Main.storyboard */,
+				1C6C0F8C1B4B8382001921B4 /* MainViewController */,
 				1C6C0F6D1B4B82C6001921B4 /* Images.xcassets */,
-				1C6C0F6F1B4B82C6001921B4 /* LaunchScreen.xib */,
 				1C6C0F601B4B82C6001921B4 /* Supporting Files */,
 			);
 			path = "waifu2x-iOS";
@@ -96,6 +148,9 @@
 		1C6C0F601B4B82C6001921B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CC008081B4BC528008A2CCD /* 1920x1080_mc05.jpg */,
+				1CCA7A3F1B4BADEC00BE86DD /* 200x200.jpeg */,
+				1C6C0F921B4B844B001921B4 /* Default-568h@2x.png */,
 				1C6C0F611B4B82C6001921B4 /* Info.plist */,
 				1C6C0F621B4B82C6001921B4 /* main.m */,
 			);
@@ -117,6 +172,110 @@
 				1C6C0F7B1B4B82C6001921B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6C0F861B4B8337001921B4 /* waifu2x-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C0F871B4B8337001921B4 /* opencv2.framework */,
+				1CCA7A3B1B4BAD9200BE86DD /* UIImageCategory */,
+				1CCA7A411B4BAEDE00BE86DD /* waifu2xCore */,
+			);
+			path = "waifu2x-iOS";
+			sourceTree = "<group>";
+		};
+		1C6C0F8C1B4B8382001921B4 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C0F8D1B4B83A1001921B4 /* MainViewController.h */,
+				1C6C0F8E1B4B83A1001921B4 /* MainViewController.m */,
+				1C6C0F8F1B4B83A1001921B4 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		1CCA7A3B1B4BAD9200BE86DD /* UIImageCategory */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A6F1B4BAFE800BE86DD /* UIImage+waifu2x.h */,
+				1CCA7A701B4BAFE800BE86DD /* UIImage+waifu2x.mm */,
+				1CCA7A3C1B4BAD9200BE86DD /* UIImage+OpenCV.h */,
+				1CCA7A3D1B4BAD9200BE86DD /* UIImage+OpenCV.mm */,
+			);
+			path = UIImageCategory;
+			sourceTree = "<group>";
+		};
+		1CCA7A411B4BAEDE00BE86DD /* waifu2xCore */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A421B4BAEDE00BE86DD /* include */,
+				1CCA7A5F1B4BAEDE00BE86DD /* models */,
+				1CCA7A631B4BAEDE00BE86DD /* src */,
+			);
+			path = waifu2xCore;
+			sourceTree = "<group>";
+		};
+		1CCA7A421B4BAEDE00BE86DD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A431B4BAEDE00BE86DD /* picojson.h */,
+				1CCA7A441B4BAEDE00BE86DD /* tclap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1CCA7A441B4BAEDE00BE86DD /* tclap */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A451B4BAEDE00BE86DD /* Arg.h */,
+				1CCA7A461B4BAEDE00BE86DD /* ArgException.h */,
+				1CCA7A471B4BAEDE00BE86DD /* ArgTraits.h */,
+				1CCA7A481B4BAEDE00BE86DD /* CmdLine.h */,
+				1CCA7A491B4BAEDE00BE86DD /* CmdLineInterface.h */,
+				1CCA7A4A1B4BAEDE00BE86DD /* CmdLineOutput.h */,
+				1CCA7A4B1B4BAEDE00BE86DD /* Constraint.h */,
+				1CCA7A4C1B4BAEDE00BE86DD /* DocBookOutput.h */,
+				1CCA7A4D1B4BAEDE00BE86DD /* HelpVisitor.h */,
+				1CCA7A4E1B4BAEDE00BE86DD /* IgnoreRestVisitor.h */,
+				1CCA7A4F1B4BAEDE00BE86DD /* Makefile.am */,
+				1CCA7A501B4BAEDE00BE86DD /* Makefile.in */,
+				1CCA7A511B4BAEDE00BE86DD /* MultiArg.h */,
+				1CCA7A521B4BAEDE00BE86DD /* MultiSwitchArg.h */,
+				1CCA7A531B4BAEDE00BE86DD /* OptionalUnlabeledTracker.h */,
+				1CCA7A541B4BAEDE00BE86DD /* StandardTraits.h */,
+				1CCA7A551B4BAEDE00BE86DD /* StdOutput.h */,
+				1CCA7A561B4BAEDE00BE86DD /* SwitchArg.h */,
+				1CCA7A571B4BAEDE00BE86DD /* UnlabeledMultiArg.h */,
+				1CCA7A581B4BAEDE00BE86DD /* UnlabeledValueArg.h */,
+				1CCA7A591B4BAEDE00BE86DD /* ValueArg.h */,
+				1CCA7A5A1B4BAEDE00BE86DD /* ValuesConstraint.h */,
+				1CCA7A5B1B4BAEDE00BE86DD /* VersionVisitor.h */,
+				1CCA7A5C1B4BAEDE00BE86DD /* Visitor.h */,
+				1CCA7A5D1B4BAEDE00BE86DD /* XorHandler.h */,
+				1CCA7A5E1B4BAEDE00BE86DD /* ZshCompletionOutput.h */,
+			);
+			path = tclap;
+			sourceTree = "<group>";
+		};
+		1CCA7A5F1B4BAEDE00BE86DD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A601B4BAEDE00BE86DD /* noise1_model.json */,
+				1CCA7A611B4BAEDE00BE86DD /* noise2_model.json */,
+				1CCA7A621B4BAEDE00BE86DD /* scale2.0x_model.json */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1CCA7A631B4BAEDE00BE86DD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7A651B4BAEDE00BE86DD /* convertRoutine.hpp */,
+				1CCA7A641B4BAEDE00BE86DD /* convertRoutine.cpp */,
+				1CCA7A671B4BAEDE00BE86DD /* modelHandler.hpp */,
+				1CCA7A661B4BAEDE00BE86DD /* modelHandler.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +358,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6C0F6C1B4B82C6001921B4 /* Main.storyboard in Resources */,
-				1C6C0F711B4B82C6001921B4 /* LaunchScreen.xib in Resources */,
+				1CCA7A691B4BAEDE00BE86DD /* Makefile.in in Resources */,
+				1CCA7A6B1B4BAEDE00BE86DD /* noise2_model.json in Resources */,
 				1C6C0F6E1B4B82C6001921B4 /* Images.xcassets in Resources */,
+				1C6C0F911B4B83A1001921B4 /* MainViewController.xib in Resources */,
+				1CC008091B4BC528008A2CCD /* 1920x1080_mc05.jpg in Resources */,
+				1CCA7A6A1B4BAEDE00BE86DD /* noise1_model.json in Resources */,
+				1CCA7A681B4BAEDE00BE86DD /* Makefile.am in Resources */,
+				1C6C0F931B4B844B001921B4 /* Default-568h@2x.png in Resources */,
+				1CCA7A401B4BADEC00BE86DD /* 200x200.jpeg in Resources */,
+				1CCA7A6C1B4BAEDE00BE86DD /* scale2.0x_model.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +385,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6C0F691B4B82C6001921B4 /* ViewController.m in Sources */,
 				1C6C0F661B4B82C6001921B4 /* AppDelegate.m in Sources */,
+				1CCA7A711B4BAFE800BE86DD /* UIImage+waifu2x.mm in Sources */,
+				1CCA7A6D1B4BAEDE00BE86DD /* convertRoutine.cpp in Sources */,
+				1CCA7A6E1B4BAEDE00BE86DD /* modelHandler.cpp in Sources */,
+				1C6C0F901B4B83A1001921B4 /* MainViewController.m in Sources */,
+				1CCA7A3E1B4BAD9200BE86DD /* UIImage+OpenCV.mm in Sources */,
 				1C6C0F631B4B82C6001921B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +412,6 @@
 			targetProxy = 1C6C0F771B4B82C6001921B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1C6C0F6A1B4B82C6001921B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C6C0F6B1B4B82C6001921B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C6C0F6F1B4B82C6001921B4 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C6C0F701B4B82C6001921B4 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C6C0F7E1B4B82C6001921B4 /* Debug */ = {
@@ -343,8 +494,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/waifu2x-iOS/waifu2x-iOS",
+				);
 				INFOPLIST_FILE = "waifu2x-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +514,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/waifu2x-iOS/waifu2x-iOS",
+				);
 				INFOPLIST_FILE = "waifu2x-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +583,7 @@
 				1C6C0F821B4B82C6001921B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C6C0F831B4B82C6001921B4 /* Build configuration list for PBXNativeTarget "waifu2x-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +592,7 @@
 				1C6C0F851B4B82C6001921B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
